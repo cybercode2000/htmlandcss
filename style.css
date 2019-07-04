@@ -1,0 +1,213 @@
+@media screen and (max-width: 100%) {
+    .all {
+        margin-left: 500px;
+    }
+}
+
+
+@media screen and (max-width: 560px) {
+   body {
+      width: 100%;
+      padding: 0px;
+      margin: 0px;
+   }
+   
+   .content {
+       padding: 0px;
+       margin: 0px;
+       margin-right: 130px;
+       text-align: center;
+       margin-top: 10px;
+   }
+
+   nav {
+       margin-right: 30px;
+   }
+  .all {
+      float: left;
+      display: inline-flex;
+      margin-top: 20px;
+      margin-left: 0px;
+      margin-bottom: 40px;
+      
+  }
+  .footer {
+      margin-bottom: 0px;
+      margin-top: 229%;
+  }
+
+  #social {
+      margin: 0px;
+      padding: 0px;
+  }
+
+  #contact-us {
+      margin: 0px;
+      float: left;
+  }
+
+  .project, .project1, .project2 {
+      padding: 30px;
+      margin: 20px;
+      margin-bottom: 10px;
+  }
+
+
+  
+
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+#welcome-section {
+    background-color: rgb(69, 159, 189);
+    background-size: cover;
+    width: 100%;
+    height: 613px;
+}
+ .content {
+      margin-top: 200px;
+      position: absolute; 
+      text-align: center;
+      margin-top: 200px;
+      margin-left: 30%; 
+ }
+
+ #span1 {
+     font-weight: normal;
+     color: yellow;
+     font-size: 75px;
+ }
+
+ #text {
+     font-family: sans-serif;
+     font-size: 0.8;
+ }
+
+#span2 {
+    font-weight: bold;
+    color: white;
+    font-size: 70px;
+}
+
+button {
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    height: 30px;
+}
+
+button:hover {
+    background-color: yellow;
+}
+
+nav {
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 40px;
+    font-weight: bold;
+    font-size: 1rem;
+
+}
+
+li:hover {
+    background-color: white;
+    border-radius: 20px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+}
+
+
+.project, .project1, .project2{
+    width: 350px;
+    float: left;
+    margin: 50px;
+}
+
+#head {
+    font-family: arial;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#word {
+    line-height: 25px;
+    text-align: justify;
+    font-family: arial;
+}
+
+.project-title {
+    margin: 30px;
+    text-align: center;
+    font-family: arial;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#contact-us{
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+#contact {
+    font-family: san-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+} 
+
+#social  {
+    float: left;
+    margin-right: 30px;
+    margin-left: 20px;
+
+}
+
+img{ 
+    height: 70px;
+    width: 70px;
+    border-radius: 30px;
+}
+
+
+ .all{
+     margin-left: 500px; 
+     margin-top: 20px;
+} 
+
+img:hover {
+    width: 100px;
+    margin-top: 30px;
+    transition: width 2s ease-out;
+}
+
+footer {
+    background: rgb(69, 159, 189);
+    height: 20px;
+    margin-top: 420px;
+    padding: 30px;
+    text-align: center;
+    font-family: arial;
+    font-size: 1rem;
+}
